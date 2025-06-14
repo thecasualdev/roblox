@@ -1,0 +1,37 @@
+{
+  "name": "project-name",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "$path": "code/start"
+    },
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "code/shared/shared"
+      },
+      "Utils": {
+        "$path":"code/shared/utils"
+      }
+    },
+
+    "ServerScriptService": {
+      "Services": {
+        "$path": "code/server/service"
+      },
+      "Lib": {
+        "$path": "code/server/lib"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+
+  }
+}
